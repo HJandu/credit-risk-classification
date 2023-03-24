@@ -3,17 +3,27 @@
 ## <ins>Overview of the Analysis</ins>
 
 * The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-* This model was used to predict who were at high risk or low risk, if they were provided with a loan. 
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* This model was used to predict who were at high risk or low risk, if they were to be considered to be given a loan. 
+* The y variable in this analysis is the "loan status", which shows if a loan is healthy (0) or at risk (1) and the 
+X variable is the loan size, interest rate, borrower income, debt to income ratio, number of accounts, derogatory marks and number of total debt. 
+
+The stages of the machine learning process I went through as part of this analysis was as follows:
+1. I split the data into training and testing datasets by using train_test_split. 
+2. Fit a logistic regression model by using the training data (X_train and y_train).
+3. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+4. Evaluate the model’s performance by doing the following:
+  i) Calculate the accuracy score of the model.  
+  ii) Generate a confusion matrix.
+  iii) Print the classification report.
+
+
+5. Logistic Regression models were created by using the original data set and resampled training data set.  The results were later compared. 
 
 ## <ins>Results</ins>
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 ![Screen Shot 2023-03-24 at 17 58 37](https://user-images.githubusercontent.com/116304118/227604226-1e3a3304-f767-44a3-956a-119881d65ae2.png)
 
@@ -21,7 +31,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ![Screen Shot 2023-03-24 at 18 01 48](https://user-images.githubusercontent.com/116304118/227604783-ae3cd9b9-ea84-49b9-85b4-dd2c3e9fc6ad.png)
 
