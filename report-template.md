@@ -25,6 +25,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
+![Screen Shot 2023-03-24 at 18 01 48](https://user-images.githubusercontent.com/116304118/227604783-ae3cd9b9-ea84-49b9-85b4-dd2c3e9fc6ad.png)
+
+
+![Screen Shot 2023-03-24 at 18 01 55](https://user-images.githubusercontent.com/116304118/227604800-774acc75-9d23-4e59-a641-66ecf94f61b6.png)
+
+
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
