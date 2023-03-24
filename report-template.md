@@ -9,12 +9,12 @@ X variable is the loan size, interest rate, borrower income, debt to income rati
 
 The stages of the machine learning process I went through as part of this analysis was as follows:
 1. I split the data into training and testing datasets by using train_test_split. 
-2. Fit a logistic regression model by using the training data (X_train and y_train).
-3. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
-4. Evaluate the model’s performance by doing the following:
-  i) Calculate the accuracy score of the model.  
-  ii) Generate a confusion matrix.
-  iii) Print the classification report.
+2. Fitted a logistic regression model by using the training data (X_train and y_train).
+3. Saved the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+4. Evaluated the model’s performance by doing the following:
+  i) Calculated the accuracy score of the model.  
+  ii) Generated a confusion matrix.
+  iii) Printed the classification report.
 
 
 5. Logistic Regression models were created by using the original data set and resampled training data set.  The results were later compared. 
