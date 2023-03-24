@@ -1,28 +1,36 @@
-# Module 12 Report Template
+# <ins>Module 20 Report</ins> 
 
-## Overview of the Analysis
+## <ins>Overview of the Analysis</ins>
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
+* The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-## Results
+## <ins>Results</ins>
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
+![Screen Shot 2023-03-24 at 17 58 37](https://user-images.githubusercontent.com/116304118/227604226-1e3a3304-f767-44a3-956a-119881d65ae2.png)
+
+![Screen Shot 2023-03-24 at 17 58 53](https://user-images.githubusercontent.com/116304118/227604253-c4e2b973-5936-4d58-9759-011771f48e83.png)
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
-## Summary
+![Screen Shot 2023-03-24 at 18 01 48](https://user-images.githubusercontent.com/116304118/227604783-ae3cd9b9-ea84-49b9-85b4-dd2c3e9fc6ad.png)
+
+
+![Screen Shot 2023-03-24 at 18 01 55](https://user-images.githubusercontent.com/116304118/227604800-774acc75-9d23-4e59-a641-66ecf94f61b6.png)
+
+
+
+## <ins>Summary</ins>
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
