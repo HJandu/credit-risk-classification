@@ -4,7 +4,7 @@
 
 * The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 * This model was used to predict who were at high risk or low risk, if they were to be considered to be given a loan. 
-* The y variable in this analysis is the "loan status", which shows if a loan is healthy (0) or at risk (1) and the 
+* The y variable in this analysis is the "loan status", which shows if a loan is healthy (0) or at high-risk (1) and the 
 X variable is the loan size, interest rate, borrower income, debt to income ratio, number of accounts, derogatory marks and number of total debt. 
 
 The stages of the machine learning process I went through as part of this analysis was as follows:
