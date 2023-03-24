@@ -3,7 +3,7 @@
 ## <ins>Overview of the Analysis</ins>
 
 * The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-* Explain what financial information the data was on, and what you needed to predict.
+* This model was used to predict who were at high risk or low risk, if they were provided with a loan. 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
