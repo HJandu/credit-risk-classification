@@ -1,16 +1,14 @@
-# Module 12 Report Template
+# <ins>Module 20 Report</ins> 
 
-## Overview of the Analysis
+## <ins>Overview of the Analysis</ins>
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
+* The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-## Results
+## <ins>Results</ins>
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -32,7 +30,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 
 
-## Summary
+## <ins>Summary</ins>
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
