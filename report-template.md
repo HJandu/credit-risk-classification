@@ -23,18 +23,25 @@ The stages of the machine learning process I went through as part of this analys
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
+#### <ins>Machine Learning Model 1:</ins>
 
 ![Screen Shot 2023-03-24 at 17 58 37](https://user-images.githubusercontent.com/116304118/227604226-1e3a3304-f767-44a3-956a-119881d65ae2.png)
 
+##### Confusion Matrix
+![Screen Shot 2023-03-24 at 21 07 56](https://user-images.githubusercontent.com/116304118/227642167-9a5bade4-90df-4325-8df5-ac2df2f1f1e7.png)
+
+##### Classification report
 ![Screen Shot 2023-03-24 at 17 58 53](https://user-images.githubusercontent.com/116304118/227604253-c4e2b973-5936-4d58-9759-011771f48e83.png)
 
 
-* Machine Learning Model 2:
+#### <ins>Machine Learning Model 2:</ins>
 
 ![Screen Shot 2023-03-24 at 18 01 48](https://user-images.githubusercontent.com/116304118/227604783-ae3cd9b9-ea84-49b9-85b4-dd2c3e9fc6ad.png)
 
+##### Confusion Matrix
+![Screen Shot 2023-03-24 at 21 08 20](https://user-images.githubusercontent.com/116304118/227642211-eb8ecaec-de2d-4ca5-b418-1e9e70d2d409.png)
 
+##### Classification report
 ![Screen Shot 2023-03-24 at 18 01 55](https://user-images.githubusercontent.com/116304118/227604800-774acc75-9d23-4e59-a641-66ecf94f61b6.png)
 
 
