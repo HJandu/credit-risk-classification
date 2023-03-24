@@ -21,8 +21,6 @@ The stages of the machine learning process I went through as part of this analys
 
 ## <ins>Results</ins>
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 #### <ins>Machine Learning Model 1:</ins>
 
 ![Screen Shot 2023-03-24 at 17 58 37](https://user-images.githubusercontent.com/116304118/227604226-1e3a3304-f767-44a3-956a-119881d65ae2.png)
