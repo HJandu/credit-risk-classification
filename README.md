@@ -14,6 +14,6 @@ The following steps were used:
 4. Write a Credit Risk Analysis Report
 
 
-To view the analysis report, please click on the link below. 
+To view the analysis report, please click on the link below: 
 
 [Analysis Report](https://github.com/HJandu/credit-risk-classification/blob/main/report-template.md)
