@@ -2,10 +2,9 @@
 
 ## <ins>Overview of the Analysis</ins>
 
-* The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-* This model was used to predict who were at high risk or low risk, if they were to be considered to be given a loan. 
-* The y variable in this analysis is the "loan status", which shows if a loan is healthy (0) or at high-risk (1) and the 
-X variable is the loan size, interest rate, borrower income, debt to income ratio, number of accounts, derogatory marks and number of total debt. 
+The purpose of the analysis was to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+This model was used to determine which loans were healthy (low-risk) or non-healthy (high-risk) based on the loan status provided by the lending company.
+The y variable in this analysis is the "loan status", which shows if a loan is low-risk (0) or at high-risk (1) and the X variable is the loan size, interest rate, borrower income, debt to income ratio, number of accounts, derogatory marks and number of total debt. 
 
 The stages of the machine learning process I went through as part of this analysis was as follows:
 1. I split the data into training and testing datasets by using train_test_split. 
@@ -45,9 +44,7 @@ The stages of the machine learning process I went through as part of this analys
 
 
 ## <ins>Summary</ins>
+The Logistic Regression model fitted with OverSampled data (model 2) performed a lot better than the model fitted with Imbalanced data due to the data being balanced and generating a higher accuracy score and a higher recall, indicating that the model will make extremely fewer mistakes when classifying non-healthy loans.
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+The balanced accuracy score is improved using the resampled (oversampling) process from 0.95 to 0.99. It is important to predict the high-risks (1), as lenders do not want to loan out money to those who will struggle to pay it back. In this case I would recommend using model 2. 
 
-If you do not recommend any of the models, please justify your reasoning.
