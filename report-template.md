@@ -44,7 +44,7 @@ The stages of the machine learning process I went through as part of this analys
 
 
 ## <ins>Summary</ins>
-The Logistic Regression model fitted with OverSampled data (model 2) performed a lot better than the model fitted with Imbalanced data due to the data being balanced and generating a higher accuracy score and a higher recall, indicating that the model will make extremely fewer mistakes when classifying non-healthy loans.
+The Logistic Regression model fitted with OverSampled data (model 2) performed a lot better than the model fitted with Imbalanced data due to the data being balanced and generating a higher accuracy score and a higher recall, indicating that the model will make extremely fewer mistakes when classifying non-healthy (high-risk (1)) loans.
 
 The balanced accuracy score is improved using the resampled (oversampling) process from 0.95 to 0.99. It is important to predict the high-risks (1), as lenders do not want to loan out money to those who will struggle to pay it back. In this case I would recommend using model 2. 
 
