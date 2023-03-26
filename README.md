@@ -17,4 +17,4 @@ The following steps were used:
 
 To view the analysis report, please click on the link below. 
 
-[Analysis Report]("https://github.com/HJandu/credit-risk-classification/blob/main/report-template.md")
+[Analysis Report](https://github.com/HJandu/credit-risk-classification/blob/main/report-template.md)
